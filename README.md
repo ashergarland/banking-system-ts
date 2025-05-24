@@ -1,16 +1,24 @@
-# Banking System – TypeScript Interview Template
-
-This project simulates a multi-stage banking system design and implementation exercise, ideal for technical interviews. It is structured in four progressive stages, each adding complexity and testing your ability to extend functionality in a maintainable way.
+Based on your implementation details and scope, here is the updated `README.md` tailored for your **completed** solution, designed to clearly communicate the final product while maintaining the educational and interview-ready context:
 
 ---
 
-## 📦 Project Structure
+```markdown
+# 🏦 Banking System – TypeScript Reference Implementation
+
+This repository contains a complete reference implementation of a multi-stage banking system simulation, originally designed as a technical interview exercise. It walks through four progressive design stages that test a candidate’s ability to build clean, correct, and extensible financial systems in TypeScript.
+
+> 🔒 **Note:** This repository is **not accepting contributions** and is intended solely for reference and educational purposes.
+
+---
+
+## 📁 Project Structure
 
 ```
 
 .
 ├── src/
-│   ├── bankingSystem.ts         # Your implementation goes here
+│   ├── bankingSystem.ts         # Final implementation class
+│   ├── transaction.ts           # Base interfaces and transaction types
 │   ├── stage1.ts                # Stage 1 interface
 │   ├── stage2.ts                # Stage 2 interface
 │   ├── stage3.ts                # Stage 3 interface
@@ -46,9 +54,7 @@ npm run test-all
 
 ---
 
-## ✅ Run Individual Stages
-
-You can run tests for individual stages using the following commands:
+## ✅ Run Individual Stage Tests
 
 | Stage   | Command               |
 | ------- | --------------------- |
@@ -59,39 +65,54 @@ You can run tests for individual stages using the following commands:
 
 ---
 
-## 🛠 Recommended Workflow
+## 🛠 Implementation Highlights
 
-1. **Start with `stage1.ts` and `stage1.test.ts`.**
-2. Implement the `BankingSystem` class incrementally.
-3. Once all Stage 1 tests pass, move on to `stage2.ts` and `stage2.test.ts`, and so on.
-4. **Each stage builds on the last**—do not remove or rewrite previous methods unless refactoring for correctness or extensibility.
+This implementation covers the full scope of the exercise and is structured to demonstrate clarity, correctness, and scalability across multiple stages:
+
+* **Stage 1:** Account creation, deposit, withdrawal, and balance tracking.
+* **Stage 2:** Transaction volume calculation, sorted account ranking, and transaction history.
+* **Stage 3:** Transfer requests between accounts with TTL-based expiration and explicit acceptance.
+* **Stage 4:** Scheduling future transfers and processing them based on time.
+
+The main `BankingSystem` class implements the interfaces incrementally and leverages clean, object-oriented design with domain-driven modeling of transaction types.
 
 ---
 
-## 🧪 Test Runner
+## 🧪 Test Environment
 
 This project uses:
 
-* [Mocha](https://mochajs.org/) as the test runner
-* [Chai](https://www.chaijs.com/) for assertions
-* [ts-node](https://typestrong.org/ts-node/) for TypeScript execution without pre-compilation
+* [Mocha](https://mochajs.org/) – test runner
+* [Chai](https://www.chaijs.com/) – assertions
+* [ts-node](https://typestrong.org/ts-node/) – runtime TypeScript execution
 
-All tests are written in TypeScript and located in the `test/` directory.
+All tests are written in TypeScript and located under the `test/` directory.
 
 ---
 
-## ✍️ Notes for Interviewers
+## 📌 Node & TypeScript Compatibility
 
-* Each stage is designed to reflect increasingly complex real-world engineering constraints.
-* The problems emphasize **state management**, **consistency**, and **robust edge case handling**.
-* The codebase avoids over-specification—interviewees are expected to demonstrate thoughtful design and error handling.
+This project is compatible with:
+
+* Node.js ≥ 16
+* TypeScript ≥ 4.5
+
+---
+
+## 📖 Educational Purpose
+
+This implementation is intended to help engineers:
+
+* Practice modular system design
+* Improve TypeScript skills with interfaces and classes
+* Demonstrate structured problem-solving in interviews
+
+It is based on the template at:
+🔗 [github.com/ashergarland/banking-system-ts-template](https://github.com/ashergarland/banking-system-ts-template)
 
 ---
 
 ## 📧 License
 
-This project is provided for educational and interview use only.
-
-```
-
----
+This project is provided for **educational and interview reference use only**.
+No warranty or support is provided. All rights reserved by the original author.
