@@ -1,8 +1,3 @@
-Based on your implementation details and scope, here is the updated `README.md` tailored for your **completed** solution, designed to clearly communicate the final product while maintaining the educational and interview-ready context:
-
----
-
-```markdown
 # 🏦 Banking System – TypeScript Reference Implementation
 
 This repository contains a complete reference implementation of a multi-stage banking system simulation, originally designed as a technical interview exercise. It walks through four progressive design stages that test a candidate’s ability to build clean, correct, and extensible financial systems in TypeScript.
@@ -14,7 +9,6 @@ This repository contains a complete reference implementation of a multi-stage ba
 ## 📁 Project Structure
 
 ```
-
 .
 ├── src/
 │   ├── bankingSystem.ts         # Final implementation class
@@ -33,7 +27,6 @@ This repository contains a complete reference implementation of a multi-stage ba
 ├── package.json
 ├── tsconfig.json
 └── README.md
-
 ````
 
 ---
