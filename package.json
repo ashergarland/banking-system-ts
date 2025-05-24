@@ -1,0 +1,20 @@
+{
+    "name": "banking-system-ts",
+    "version": "1.0.0",
+    "description": "Interview simulation for a multi-stage banking system in TypeScript",
+    "scripts": {
+        "test-all": "mocha -r ts-node/register \"test/**/*.ts\"",
+        "test-stage1": "mocha -r ts-node/register test/stage1.test.ts",
+        "test-stage2": "npm run test-stage1 && mocha -r ts-node/register test/stage2.test.ts",
+        "test-stage3": "npm run test-stage2 && mocha -r ts-node/register test/stage3.test.ts",
+        "test-stage4": "npm run test-stage3 && mocha -r ts-node/register test/stage4.test.ts"
+    },
+    "devDependencies": {
+        "@types/chai": "^5.2.2",
+        "@types/mocha": "^10.0.10",
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.0.4"
+    }
+}
