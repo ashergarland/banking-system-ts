@@ -1,6 +1,6 @@
 # 🏦 Banking System – TypeScript Reference Implementation
 
-This repository contains a complete reference implementation of a multi-stage banking system simulation, originally designed as a technical interview exercise. It walks through four progressive design stages that test a candidate’s ability to build clean, correct, and extensible financial systems in TypeScript.
+This repository contains a complete reference implementation of a multi-stage banking system simulation, originally designed as a technical challenge exercise. It walks through four progressive design stages that test a candidate’s ability to build clean, correct, and extensible financial systems in TypeScript.
 
 > 🔒 **Note:** This repository is **not accepting contributions** and is intended solely for reference and educational purposes.
 
